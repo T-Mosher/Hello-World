@@ -1,3 +1,4 @@
+% train on the ex1_multi data set using fminunc()
 data = csvread('ex1data2.txt');
 X = data(:, 1:2);
 y = data(:, 3);
